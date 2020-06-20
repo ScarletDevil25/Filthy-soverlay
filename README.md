@@ -1,7 +1,7 @@
 # Streamlabs Chatbot Hype Meter Overlay
 A Python script for use in [Streamlabs Chatbots's](https://streamlabs.com/chatbot) built-in scripting feature which monitors chat for given keywords, and then an web overlay using Websocket events. 
 The script can also optionally switch scenes and activate sources within OBS using OBSRemote. 
-You can check out the functionality on [Github](https://github.com/HyperNeon/Streamlabs-Chatbot-Hype-Meter-Overlay)
+Original Repo [Github](https://github.com/HyperNeon/Streamlabs-Chatbot-Hype-Meter-Overlay)
 
 Video Tutorial: [YouTube](https://youtu.be/ZifIbMVmTBc)
 
@@ -29,14 +29,9 @@ These commands are only usable by chatters with the configured permission level 
 
 Although the script is called "Hype Meter" it can really be used to track any type of chat activity over time if configured properly. For example: you could automatically track specific word usage over several hours, by simply setting the LookbackMinutes to several hours which essentially removes any decay of the meter. In these situations you may also want to update the BlockLengthSeconds and TickTimeSeconds to only be every few minutes rather than seconds since you'll be tracking data over a longer period. You can also track any Chat Activity, not just specific phrase matches, by leaving the "HypePhrases" field empty, which effectively matches every chat message.
 
-Streamers using Streamlabs Chatbot Hype Meter Overlay:
-* https://www.twitch.tv/gametangent
-* https://www.twitch.tv/casperthespicyghost
-
 ### Installation
 This script is meant to be run from within the Scripts module in [Streamlabs Chatbots's](https://streamlabs.com/chatbot).
 Instructions for installing a new script in the bot can be found here: [Offical Chatbot Documention](https://streamlabs.com/chatbot#Documentation.pdf).
 Everything else you need for configuring the bot can be found within the tooltips that appear when hovering over each configuration parameter in the UI.
 
-### Contributing
-I'd love it if you'd like to help out making this thing better. Simply fork the repo and submit a PR and I'll be glad to take a look at it. Also feel free to reach out to me with any questions and check out the [Chatbot Discord](https://discordapp.com/invite/J4QMG5m). I go by GameTangent in the Discord.
+This is a Fork made especially for Filthy Coin   by Azurea Technologies
